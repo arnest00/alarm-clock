@@ -1,0 +1,75 @@
+body {
+	background-color: #121212;
+	color: #fff;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#clock-container {
+	width: 900px;
+	height: 256px;
+	margin: 25vh auto;
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.05);
+	border-radius: 0.25rem;
+	box-shadow: 0 0 0.25rem black;
+}
+
+#clock-display {
+	width: 700px;
+	height: 120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.08);
+	box-shadow: 0 0 0.12rem black;
+	color: #fb3232;
+}
+
+#period-div {
+	font-size: 1.5rem;
+	width: 6rem;
+	height: 3rem;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#time {
+	font-size: 3rem;
+}
+
+#alarm-container {
+	margin-top: 2rem;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+#alarm-container span,
+#menu-container {
+	align-self: center;
+	margin-bottom: 1rem;
+}
+
+#button-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+	padding: 0.25rem 1rem;
+	border-radius: 0.25rem;
+	border: none;
+	box-shadow: 0 0 0.12rem black;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.08);
+	color: #fff;
+}
+
+button:focus {
+	outline-color: #32fbfb;
+}

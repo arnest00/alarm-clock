@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<title>Alarm Clock (Vanilla JS)</title>
+</head>
+
+<body>
+<div id="clock-container">
+	
+	<div id="clock-display">
+		<div id="period-div">
+			<span class="period hidden">AM</span>
+			<span class="period hidden">PM</span>
+		</div>
+		<span id="time"></span>
+	</div>
+	
+	<div id="alarm-container">
+		
+		<span>Set Alarm Time</span>
+		
+		<div id="menu-container">
+			<label for="hour-select">
+				<select name="hours" id="hour-select"></select>
+			</label>
+			<label for="min-select">
+				<select name="mins" id="min-select"></select>
+			</label>
+			<label for="sec-select">
+				<select name="secs" id="sec-select"></select>
+			</label>
+			<label for="per-select">
+				<select name="per" id="per-select">
+					<option value="am">AM</option>
+					<option value="pm">PM</option>
+				</select>
+			</label>
+		</div>
+		
+		<div id="button-container">
+			<div>
+				<button id="set-button">SET</button>
+			</div>
+			<div>
+				<button id="clear-button">CLEAR</button>
+			</div>
+		</div>
+		
+	</div>
+
+</div>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
